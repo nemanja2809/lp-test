@@ -35,8 +35,8 @@
                         Are you over 50 years old?
                      </p>
                      <div class="btn-wrap mt-5">
-                        <a href="/p1/" class="btn-yes" contenteditable="false">Yes</a>
-                        <a href="/p1/" class="btn-no" contenteditable="false">No</a>
+                        <a href="/p1/" class="btn btn-yes">Yes</a>
+                        <a href="/p1/" class="btn btn-no">No</a>
                      </div>
                   </div>
                
@@ -86,7 +86,7 @@
 
       if (urlParams.length > 1) {
          const params = urlParams.at(-1);
-         const buttons = document.getElementsByClassName("btn-yes");
+         const buttons = document.getElementsByClassName("btn");
          for (button of buttons) {
                button.href += `?${params}`;
          }
