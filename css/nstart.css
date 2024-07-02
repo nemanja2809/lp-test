@@ -107,6 +107,7 @@ hr {
   p {
     margin-top: 0;
     margin-bottom: 1rem;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, .1));
   }
 
   abbr[title] {
@@ -661,11 +662,10 @@ hr {
   
   }
 
-
   .btn-wrap {
     display: flex;
     justify-content: center;
-    margin-top: 50px; 
+    margin-top: 30px; 
   }
   .btn-wrap a {
     margin-right: 20px; 
@@ -680,7 +680,7 @@ hr {
     border-style: none;
     z-index: 2;
     width: 249px;
-    height: 65px;
+    height: 55px;
     background: rgb(2 130 46);
     box-shadow: none;
     text-shadow: none;
@@ -688,7 +688,7 @@ hr {
     border-width: undefinedpx;
     border-color: undefined;
     font-size: 20px;
-    line-height: 65px;
+    line-height: 55px;
     font-weight: 400;
     font-family: Arial, sans-serif;
     font-style: normal;
@@ -706,7 +706,7 @@ hr {
     border-style: none;
     z-index: 2;
     width: 249px;
-    height: 65px;
+    height: 55px;
     background: rgb(210 0 0);
     box-shadow: none;
     text-shadow: none;
@@ -714,7 +714,7 @@ hr {
     border-width: undefinedpx;
     border-color: undefined;
     font-size: 20px;
-    line-height: 65px;
+    line-height: 55px;
     font-weight: 400;
     font-family: Arial, sans-serif;
     font-style: normal;
@@ -730,26 +730,27 @@ hr {
 /* Styles */
 
 .homeinfo{
-  margin-top: 40px;
   padding: 40px 20px;
   font-size: 16px;
   line-height: 26px;
-  font-weight: 600;
+  font-weight: 500;
 }
+.homeinfo p span{font-weight: 700;}
 
 @media only screen and (min-width: 48em) {
   .homeinfo{
     margin-top: 40px;
     padding: 40px 20px;
     font-size: 20px;
-    line-height: 34px;
+    line-height: 30px;
     font-weight: 600;
   }
 }
 
 .img-wrap img{
-  margin-top: 50px;
-  max-width: 290px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  max-width: 320px;
 }
 header{
   background: rgba(65, 179, 255, 1);
@@ -758,7 +759,7 @@ header{
 }
 header h1, header p{color:#fff}
 footer{
-  margin-top: 80px;
+  margin-top: 50px;
 }
 footer a span{font-size:12px}
 .pinfo{padding: 20px;}
@@ -838,4 +839,39 @@ footer a{
 .cinfo form button h2 {
   margin: 0;
   font-size: 16px;
+}
+
+.ccontent {
+  display: flex;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  padding: 15px;
+}
+.logo {
+  max-height: 65px;
+  width: auto;
+  height: auto; 
+  max-width: 100%;
+  object-fit: contain;
+}
+.lq{
+  order: 1;
+  max-width: 520px;
+  align-self: center;
+}
+.lq p{font-size: 20px;font-weight: 500;}
+.ltxt{
+  order:3;
+}
+ .btn-wrap{
+order:4;
+}
+.img-wrap{
+order:2;
+}
+.pitanje{
+  margin-top: 20px;
+  font-size: 24px;
 }
