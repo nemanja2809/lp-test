@@ -782,7 +782,7 @@ footer a{
 .cinfo form {
   max-width: 400px;
   margin: 0 auto;
-  padding: 40px 20;
+  padding: 40px 20px;
   background-color: rgba(65, 179, 255, 0.3);
   border: 1px solid #ccc;
   border-radius: 5px;
