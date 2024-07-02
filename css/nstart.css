@@ -756,9 +756,9 @@ hr {
 
 .homeinfo{
   padding: 20px;
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 20px;
   font-weight: 500;
+  line-height: 26px;
 }
 .homeinfo p span{font-weight: 700;}
 
