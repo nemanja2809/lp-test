@@ -764,7 +764,7 @@ footer a span{font-size:12px}
 .pinfo{padding: 20px;}
 .fpage{
   background: rgba(65, 179, 255, 1);
-  padding: 20px;
+  padding: 40px 20px;
   text-align: center;
   color: #fff;
 }
@@ -782,7 +782,7 @@ footer a{
 .cinfo form {
   max-width: 400px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 40px 20;
   background-color: rgba(65, 179, 255, 0.3);
   border: 1px solid #ccc;
   border-radius: 5px;
