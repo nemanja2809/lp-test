@@ -675,13 +675,13 @@ hr {
     margin-right: 0; 
   }
   .btn-yes{
-    border-radius: 55px;
+    border-radius: 5px;
     display: block;
     border-style: none;
     z-index: 2;
     width: 249px;
     max-width: 440px;
-    height: 55px;
+    height: 65px;
     background: rgb(2 130 46);
     box-shadow: none;
     text-shadow: none;
@@ -689,22 +689,24 @@ hr {
     border-width: undefinedpx;
     border-color: undefined;
     font-size: 20px;
-    line-height: 55px;
+    line-height: 65px;
     font-weight: 400;
     font-family: Arial, sans-serif;
     font-style: normal;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
   
   }
   .btn-yes2{
-    border-radius: 55px;
+    border-radius: 5px;
     display: block;
     border-style: none;
     z-index: 2;
     width: 249px;
     max-width: 440px;
-    height: 55px;
+    height: 65px;
     background: rgba(65, 179, 255, 1);
     box-shadow: none;
     text-shadow: none;
@@ -712,12 +714,14 @@ hr {
     border-width: undefinedpx;
     border-color: undefined;
     font-size: 20px;
-    line-height: 55px;
+    line-height: 65px;
     font-weight: 400;
     font-family: Arial, sans-serif;
     font-style: normal;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
   
   }
   .btn-yes:hover,.btn-yes2:hover {
@@ -725,13 +729,13 @@ hr {
   
   }
   .btn-no{
-    border-radius: 55px;
+    border-radius: 5px;
     display: block;
     border-style: none;
     z-index: 2;
     width: 249px;
     max-width: 440px;
-    height: 55px;
+    height: 65px;
     background: rgb(210 0 0);
     box-shadow: none;
     text-shadow: none;
@@ -739,7 +743,7 @@ hr {
     border-width: undefinedpx;
     border-color: undefined;
     font-size: 20px;
-    line-height: 55px;
+    line-height: 65px;
     font-weight: 400;
     font-family: Arial, sans-serif;
     font-style: normal;
