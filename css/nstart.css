@@ -680,6 +680,7 @@ hr {
     border-style: none;
     z-index: 2;
     width: 249px;
+    max-width: 440px;
     height: 55px;
     background: rgb(2 130 46);
     box-shadow: none;
@@ -702,6 +703,7 @@ hr {
     border-style: none;
     z-index: 2;
     width: 249px;
+    max-width: 440px;
     height: 55px;
     background: rgba(65, 179, 255, 1);
     box-shadow: none;
@@ -728,6 +730,7 @@ hr {
     border-style: none;
     z-index: 2;
     width: 249px;
+    max-width: 440px;
     height: 55px;
     background: rgb(210 0 0);
     box-shadow: none;
