@@ -730,7 +730,7 @@ hr {
 /* Styles */
 
 .homeinfo{
-  paddingś20px;
+  padding: 20px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
@@ -863,8 +863,11 @@ footer a{
 }
 .lq p{font-size: 20px;font-weight: 500;}
 .ltxt{
-  order:3;
-  
+  order: 3;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px 10px;
+  border-radius: 8px;
 }
  .btn-wrap{
 order:4;
