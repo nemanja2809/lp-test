@@ -776,7 +776,7 @@ header{
 }
 header h1, header p{color:#fff}
 footer{
-  margin-top: 50px;
+  margin: 20vh auto;
 }
 footer a span{font-size:12px}
 .pinfo{padding: 20px;}
