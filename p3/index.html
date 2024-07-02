@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <title id="pageTitle">LP </title>
+      <meta name="description" content="test opis"" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+      <link rel="stylesheet" href="/css/nstart.css">
+      <script type="text/javascript" src="/config.js"></script>
+      <script async="" src="https://js.center.io/center.js"></script>
+
+ 
+   </head>
+      <body onload="body()">
+      <header>
+      </header>
+      <section class="homeinfo">
+         <div class="container">
+            <div class="row">
+               <div class="col-mob-12 text-center">
+                     <img src="/img/nelogo.png">
+                
+                  <p class="mt-3 mb-3 perror"> 
+                    Based on your answers, you wouldn't qualify. If you'd like to change your answers, please go back.
+                </p>
+               
+               
+
+                  <div class="img-wrap">
+                     <img src="/img/fotoinvert.png">
+                  </div>
+
+               </div>
+         
+            </div>
+         </div>
+      </section>
+ 
+      <footer class="">
+         <p style="line-height: 24px; text-align: center;">
+            <a href="/privacy/"> <span>Privacy</span></a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="/tos/"> <span>Terms</span></a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="/contact/"> <span>Contact</span></a>
+        </p>
+        <p class="text-center">
+            <a id="G2Element" href="" target="_top" data-link-type="external">
+                <strong id="G2Elementname"> </strong>
+            </a>
+        </p>
+     </footer>
+
+
+   <script>
+      function updateTitle() {
+         document.getElementById("pageTitle").innerText = G2DisplayName;
+      }
+
+      updateTitle();
+
+      function body() {
+         document.getElementById("G2Elementname").innerHTML = G2DisplayName;
+         document.getElementById("G2Element").href = G2Link;
+      }
+
+   </script>
+
+   <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
+      <section id="shadow-host-companion"></section>
+   </div>
+   <script>
+      const currentURL = window.location.href;
+      const urlParams = currentURL.split("?");
+
+      if (urlParams.length > 1) {
+         const params = urlParams.at(-1);
+         const buttons = document.getElementsByClassName("lp-button-react");
+         for (button of buttons) {
+               button.href += `?${params}`;
+         }
+      }
+   </script>
+
+
+   <script type="text/javascript" src="/js/jquery.min.js"></script>
+   <script type="text/javascript" src="/js/script.js?ver=1.1"></script>
+
+   </body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+      <title id="pageTitle">LP </title>
+      <meta name="description" content="test opis"" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+      <link rel="stylesheet" href="/css/nstart.css">
+      <script type="text/javascript" src="/config.js"></script>
+      <script async="" src="https://js.center.io/center.js"></script>
+
+ 
+   </head>
+      <body onload="body()">
+      <header>
+        <h1>User Aid Subsidy</h1>
+        <p>Updated: 21st August, 2023</p>
+      </header>
+      <section class="cinfo">
+         <div class="container">
+            <div class="row">
+               <div class="col-mob-12">
+                <div class="cinfo mt-3 mb-3 text-center">
+                    <h1>Contact Us</h1> <br>
+                    <h3>Support hours are - Monday - Friday - 9:00 am - 6:00pm EST</h3>
+                </div>
+     
+                <form>
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" name="first-name" required placeholder="First Name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Email">
+
+                    <p style="color: gray; font-size: smaller;">This form collects information we will use to send you
+                        updates about promotions, special offers, and news. We will not share or sell your personal
+                        information. You can unsubscribe at any time.</p>
+                    <a href="http://" font-size: 12px;">Privacy Policy</a>
+
+                    <br />
+                    <br />
+                    <input type="checkbox" name="Yes, I consent to receiving emails" id="">
+                    Yes, I consent to receiving emails
+                    </input>
+                    <br />
+                    <br />
+
+                    <button class="button Contact">
+                        <h2 style="color: white;">Contact Us</h2>
+                    </button>
+                </form>
+
+               </div>
+         
+            </div>
+         </div>
+      </section>
+ 
+      <footer class="fpage">
+        <p style="line-height: 24px; text-align: center;">
+            <a href="/privacy/"> <span>Privacy</span></a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="/tos/"> <span>Terms</span></a>
+            <span>&nbsp;|&nbsp;</span>
+            <a href="/contact/"> <span>Contact</span></a>
+        </p>
+        <p class="text-center">
+            <a id="G2Element" href="" target="_top" data-link-type="external">
+                <strong id="G2Elementname"> </strong>
+            </a>
+        </p>
+      <p class="mt-3">
+        © 2024 All Rights Reserved.
+        </p>
+        <p>
+<strong>IMPORTANT DISCLOSURES:</strong> This page is just an advertorial, and not an actual news article, blog, or consumer protection update.
+      </p>
+      </footer>
+
+
+   <script>
+      function updateTitle() {
+         document.getElementById("pageTitle").innerText = G2DisplayName;
+      }
+
+      updateTitle();
+
+      function body() {
+         document.getElementById("G2Elementname").innerHTML = G2DisplayName;
+         document.getElementById("G2Element").href = G2Link;
+      }
+
+   </script>
+
+   <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
+      <section id="shadow-host-companion"></section>
+   </div>
+   <script>
+      const currentURL = window.location.href;
+      const urlParams = currentURL.split("?");
+
+      if (urlParams.length > 1) {
+         const params = urlParams.at(-1);
+         const buttons = document.getElementsByClassName("lp-button-react");
+         for (button of buttons) {
+               button.href += `?${params}`;
+         }
+      }
+   </script>
+
+
+   <script type="text/javascript" src="/js/jquery.min.js"></script>
+   <script type="text/javascript" src="/js/script.js?ver=1.1"></script>
+
+   </body>
+</html>
