@@ -12,7 +12,7 @@
 
  
    </head>
-      <body onload="body()">
+      <body onload="overflownumbers()">
       <header>
       </header>
       <section class="homeinfo">
@@ -21,10 +21,23 @@
                <div class="col-mob-12 text-center">
                      <img src="/img/nelogo.png">
                 
-                  <p class="mt-3 mb-3 perror"> 
+                  <!-- <p class="mt-3 mb-3 perror"> 
                     Based on your answers, you wouldn't qualify. If you'd like to change your answers, please go back.
-                </p>
-               
+                </p> -->
+                <p class="mt-3 cong">
+                  Congratulations, you are Pre-qualified!
+               </p>
+               <p>
+                  Spaces are extremely limited, so call now quickly to confirm the benefits of your policy! Be sure to mention that you are interested in the Burial Benefits Policy.
+               </p>
+               <p>
+                  Tap below to call Now
+               </p>
+
+                <div class="btn-wrap mt-5">
+                  <a id="callButton" href="" class="btn-yes2 w100">Call Now >></a>
+               </div>
+              
                
 
                   <div class="img-wrap">
@@ -53,35 +66,23 @@
      </footer>
 
 
-   <script>
-      function updateTitle() {
-         document.getElementById("pageTitle").innerText = G2DisplayName;
-      }
 
-      updateTitle();
-
-      function body() {
-         document.getElementById("G2Elementname").innerHTML = G2DisplayName;
-         document.getElementById("G2Element").href = G2Link;
-      }
-
-   </script>
 
    <div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb">
       <section id="shadow-host-companion"></section>
    </div>
    <script>
-      const currentURL = window.location.href;
-      const urlParams = currentURL.split("?");
+      function overflownumbers() {
+          document.getElementById('G2Elementname').innerHTML = G2DisplayName;
+          document.getElementById('G2Element').href = G2Link;
+          document.getElementById("callButton").href = `tel: ${overflowNumber}`;
 
-      if (urlParams.length > 1) {
-         const params = urlParams.at(-1);
-         const buttons = document.getElementsByClassName("lp-button-react");
-         for (button of buttons) {
-               button.href += `?${params}`;
-         }
+          script = document.createElement("script");
+          script.src = `https://b-js.ringba.com/${overflowRingbaCampaignID}`;
+          script.async = true;
+          document.body.appendChild(script);
       }
-   </script>
+  </script>
 
 
    <script type="text/javascript" src="/js/jquery.min.js"></script>

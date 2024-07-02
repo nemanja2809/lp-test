@@ -696,7 +696,29 @@ hr {
     text-decoration: none;
   
   }
-  .btn-yes:hover{
+  .btn-yes2{
+    border-radius: 55px;
+    display: block;
+    border-style: none;
+    z-index: 2;
+    width: 249px;
+    height: 55px;
+    background: rgb(7, 199, 75);
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    border-width: undefinedpx;
+    border-color: undefined;
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+  
+  }
+  .btn-yes:hover,.btn-yes2:hover {
     background: rgb(2, 174, 62);
   
   }
@@ -737,15 +759,7 @@ hr {
 }
 .homeinfo p span{font-weight: 700;}
 
-@media only screen and (min-width: 48em) {
-  .homeinfo{
-    margin-top: 40px;
-    padding: 40px 20px;
-    font-size: 20px;
-    line-height: 30px;
-    font-weight: 600;
-  }
-}
+
 
 .img-wrap img{
   margin-top: 40px;
@@ -878,4 +892,17 @@ order:2;
 .pitanje{
   margin-top: 20px;
   font-size: 24px;
+}
+
+@media only screen and (min-width: 48em) {
+  .homeinfo{
+    padding: 40px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+  }
+  .ltxt {
+    max-width: 560px;
+    margin:0 auto;
+  }
 }
