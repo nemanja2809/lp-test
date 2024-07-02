@@ -703,7 +703,7 @@ hr {
     z-index: 2;
     width: 249px;
     height: 55px;
-    background: rgb(7, 199, 75);
+    background: rgba(65, 179, 255, 1);
     box-shadow: none;
     text-shadow: none;
     color: #fff;
